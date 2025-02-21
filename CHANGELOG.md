@@ -1,5 +1,11 @@
 # @xtsai/xai-utils
 
+## 0.0.2
+
+### Patch Changes
+
+- Add errorcodes request
+
 ## 0.0.1
 
 ### Patch Changes
