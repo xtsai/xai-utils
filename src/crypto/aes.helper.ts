@@ -6,7 +6,6 @@ import {
 } from 'crypto';
 import { AESOptionsType } from './crypto-types';
 
-
 export const AES_KEY_LENGTH = 32;
 
 export const AES_ALGORITHM_CBC = 'aes-256-cbc';

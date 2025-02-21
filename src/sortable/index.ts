@@ -1,1 +1,1 @@
-export * from './object.sortable'
+export * from './object.sortable';

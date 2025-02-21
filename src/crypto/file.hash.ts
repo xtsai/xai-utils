@@ -16,6 +16,6 @@ export function calcHash(
     alg: 'sha256',
   },
 ): string {
-  const { encoding='utf8', alg='sha256' } = opts;
+  const { encoding = 'utf8', alg = 'sha256' } = opts;
   return createHash(alg).update(content, encoding).digest('hex');
 }

@@ -1,7 +1,6 @@
 import * as bcrypt from 'bcrypt';
 import { objectKeySorted } from 'src/sortable';
 
-
 const DEFAULT_ROUNDS = 10;
 const DEFAULT_PW = 'Tsailab';
 export class BcryptHelper {

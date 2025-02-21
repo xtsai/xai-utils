@@ -9,7 +9,8 @@
     "declarationDir": "types",
 
     "types": [
-      "node","jest"
+      "node",
+      "jest"
     ] /* 指定需要包含在编译中的类型声明文件,通常用于控制哪些全局类型包被包含在项目中 */,
     "typeRoots": [
       "node_modules/@types",

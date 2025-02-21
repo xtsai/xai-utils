@@ -2,7 +2,6 @@ import { createECDH, ECDH, getCurves } from 'crypto';
 import * as ecKeyUtils from 'eckey-utils';
 import { JwtAlgorithm } from './crypto-types';
 
-
 export const oidedToAnsi = {
   prime256v1: 'P-256',
   secp384r1: 'P-384',

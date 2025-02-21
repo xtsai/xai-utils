@@ -1,4 +1,3 @@
-
 import { generateKeyPairSync } from 'crypto';
 
 /**
