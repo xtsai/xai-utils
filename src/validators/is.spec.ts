@@ -1,4 +1,4 @@
-import { isInvalidDate, isNotEmptyString, isNumber } from './is';
+import { isConfigYes, isInvalidDate, isNotEmptyString, isNumber } from './is';
 
 describe('Validators IS tests', () => {
   it('test 1 should return true', () => {
@@ -27,5 +27,9 @@ describe('Validators IS tests', () => {
 
   it('test isInvalidDate 2012-12-01 should return false', () => {
     expect(isInvalidDate('2012-12-01')).toBe(false);
+  });
+
+  it('test isConfigYes 1 should return true', () => {
+    expect(isConfigYes('1')).toBe(true);
   });
 });

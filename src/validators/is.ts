@@ -31,3 +31,9 @@ export const isInvalidDate = (d?: string | number | Date): boolean => {
   if (new Date(d).toString() === 'Invalid Date') return true;
   return false;
 };
+
+const CNF_PROP_VOLUME_YES = ['1',1, 'on', 'y', 'yes', 'true', true];
+
+export const isConfigYes = (v: string | number | boolean) =>
+  CNF_PROP_VOLUME_YES.includes(v) ||
+  CNF_PROP_VOLUME_YES.includes(String(v).toLocaleLowerCase());

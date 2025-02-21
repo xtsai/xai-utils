@@ -1,4 +1,4 @@
-export type LocaleType = 'enUS' | 'zhCN';
+export type LocaleType = 'enUS' | 'zhCN' | 'zhTW' | string;
 
 export type BizErrorOptionType = {
   locale?: LocaleType;
