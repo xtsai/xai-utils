@@ -1,5 +1,5 @@
 import * as bcrypt from 'bcrypt';
-import { objectKeySorted } from 'src/sortable';
+import { objectKeySorted } from '../sortable';
 
 const DEFAULT_ROUNDS = 10;
 const DEFAULT_PW = 'Tsailab';

@@ -32,7 +32,7 @@ export const isInvalidDate = (d?: string | number | Date): boolean => {
   return false;
 };
 
-const CNF_PROP_VOLUME_YES = ['1',1, 'on', 'y', 'yes', 'true', true];
+const CNF_PROP_VOLUME_YES = ['1', 1, 'on', 'y', 'yes', 'true', true];
 
 export const isConfigYes = (v: string | number | boolean) =>
   CNF_PROP_VOLUME_YES.includes(v) ||
