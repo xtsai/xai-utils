@@ -4,5 +4,6 @@
     "lib": ["DOM", "ES2022", "DOM.Iterable"],
     "module": "CommonJS",
     "outDir": "./dist/cjs"
-  }
+  },
+  "exclude": ["**/*.spec.ts"]
 }
