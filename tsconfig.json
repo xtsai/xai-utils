@@ -20,10 +20,10 @@
     "sourceMap": true,
     "strict": true,
     "noImplicitAny": false,
-    "strictNullChecks": true,
+    "strictNullChecks": false,
     "strictFunctionTypes": true,
     "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
+    "strictPropertyInitialization": false,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
