@@ -56,6 +56,10 @@ website/i18n/*
 **/.conf/*/*.yaml
 **/.conf/*/*.yml
 
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+
 # docs
 docs/**/*.local.md
 
