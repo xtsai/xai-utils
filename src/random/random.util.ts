@@ -79,4 +79,31 @@ export class RandomUtil {
 
     return `xmid.${prefix}${Date.now().toString(36)}`;
   }
+
+  /**
+   * base time random key part
+   * @returns string
+   */
+  static genRandomCacheKey() {
+    const prex1 = (Math.random() * Math.pow(36, 2)) | 0;
+    const prex2 = (Math.random() * Math.pow(36, 2)) | 0;
+    const prefix = prex1.toString(36).toUpperCase() + prex2.toString(36);
+
+    return `${prefix}.${Date.now().toString(36)}`;
+  }
+
+  /**
+   *
+   * @param len
+   * @returns
+   */
+  static randomNumberCode(len: number = 6): string {
+    if (len < 1 || len > 40) len = 6;
+    let code = '';
+    while (code.length < len) {
+      code = `${code}${Math.floor(Math.random() * 10)}`;
+    }
+
+    return code;
+  }
 }
