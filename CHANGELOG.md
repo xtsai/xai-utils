@@ -1,5 +1,11 @@
 # @xtsai/xai-utils
 
+## 0.0.7
+
+### Patch Changes
+
+- Feat: calendar utils
+
 ## 0.0.6
 
 ### Patch Changes

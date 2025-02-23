@@ -1,4 +1,4 @@
-export * from './calendar'
+export * from './calendar';
 export * from './crypto';
 export * from './errors';
 export * from './random';
