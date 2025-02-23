@@ -62,16 +62,16 @@ export class UnoHelper {
   static validUno(uno: string): boolean {
     if (!/[0-9a-z]{9,14}/.test(uno)) return false;
 
-    let unoValue = uno
-    if(/[a-z]+/.test(uno)){
-        unoValue =   UnoHelper.parseUno(uno)
-    }else {
-        unoValue =  `000000${uno}`.slice(-14);
+    let unoValue = uno;
+    if (/[a-z]+/.test(uno)) {
+      unoValue = UnoHelper.parseUno(uno);
+    } else {
+      unoValue = `000000${uno}`.slice(-14);
     }
     const m = parseInt(unoValue.slice(0, 2));
-    globalThis.console.log(m)
+    globalThis.console.log(m);
     const seed = parseInt(unoValue.slice(2, 6));
-    globalThis.console.log(seed)
+    globalThis.console.log(seed);
 
     return seed % 17 === m;
   }
