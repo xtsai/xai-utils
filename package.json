@@ -58,6 +58,7 @@
     "@types/node": "^22.13.4",
     "bcrypt": "^5.1.1",
     "cross-env": "^7.0.3",
+    "date-fns": "^4.1.0",
     "eckey-utils": "^0.7.14",
     "eslint": "^9.20.1",
     "eslint-config-prettier": "^10.0.1",
@@ -102,6 +103,7 @@
   },
   "peerDependencies": {
     "bcrypt": "^5.1.1",
+    "date-fns": "^4.1.0",
     "eckey-utils": "^0.7.14",
     "nanoid": "^3.3.4||^5.0.0"
   }
