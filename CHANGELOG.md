@@ -1,5 +1,11 @@
 # @xtsai/xai-utils
 
+## 0.0.6
+
+### Patch Changes
+
+- Add validate functions
+
 ## 0.0.5
 
 ### Patch Changes
