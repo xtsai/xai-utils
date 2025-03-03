@@ -1,5 +1,11 @@
 # @xtsai/xai-utils
 
+## 0.0.8
+
+### Patch Changes
+
+- Feat: remove NanoidGenerator
+
 ## 0.0.7
 
 ### Patch Changes
